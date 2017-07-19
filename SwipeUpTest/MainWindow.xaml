@@ -1,0 +1,32 @@
+﻿<Window x:Class="SwipeUpTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SwipeUpTest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="639.328" Width="882.811">
+    <Grid>
+        <Label x:Name="lbtext" Content="swipe up right" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="58" Width="459" FontSize="20"/>
+        <!--kinect code start-->
+        <Viewbox x:Name="kinectBodyViewbox"
+                 Grid.Row="1"
+                 Grid.RowSpan="1"
+                 Grid.Column="1"
+                 Grid.ColumnSpan="1" Margin="300,9.91,9.2,38.358"
+                 Visibility="Visible">
+
+            <Image Source="{Binding ImageSource}" Stretch="UniformToFill" />
+
+        </Viewbox>
+        <Label x:Name="lbtext2" Content="hand up right" HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top" Height="58" Width="422" FontSize="20"/>
+        <Label x:Name="lbtext3" Content="hand up left" HorizontalAlignment="Left" Margin="10,184,0,0" VerticalAlignment="Top" Height="58" Width="459" FontSize="20"/>
+        <Label x:Name="lbtext4" Content="swipe down right" HorizontalAlignment="Left" Margin="10,126,0,0" VerticalAlignment="Top" Height="58" Width="422" FontSize="20"/>
+        <Label x:Name="lbtext5" Content="swipe up left" HorizontalAlignment="Left" Margin="10,247,0,0" VerticalAlignment="Top" Height="58" Width="422" FontSize="20"/>
+        <Label x:Name="lbtext6" Content="Label" HorizontalAlignment="Left" Margin="10,305,0,0" VerticalAlignment="Top" Height="58" Width="422" FontSize="20"/>
+        <Label x:Name="lbtext7" Content="Label" HorizontalAlignment="Left" Margin="10,368,0,0" VerticalAlignment="Top" Height="58" Width="422" FontSize="20"/>
+        <Label x:Name="lbtext8" Content="Label" HorizontalAlignment="Left" Margin="10,431,0,0" VerticalAlignment="Top" Height="58" Width="422" FontSize="20"/>
+        <Label x:Name="lbtext9" Content="Label" HorizontalAlignment="Left" Margin="10,494,0,0" VerticalAlignment="Top" Height="58" Width="422" FontSize="20"/>
+        <!--kinect code end-->
+    </Grid>
+</Window>
