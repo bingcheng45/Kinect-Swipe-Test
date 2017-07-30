@@ -22,26 +22,30 @@ namespace SwipeUpTest
     {
         //stores an array of paths that leads to the gbd files
         private string[] databaseArray = {//Left Hand
-                                          @"Database\RightHandHandsUp.gbd",
-                                          @"Database\LeftHandHandsUp.gbd",
-                                          //@"Database\LeftHandSwipeDown.gbd",
-                                          @"Database\RightHandBottomToUp.gbd",
-                                          //@"Database\LeftHandLeftToRight.gbd",
-                                          @"Database\RightHandRightToLeft.gbd",
-                                          //@"Database\RightHandTopToBottom.gbd",
                                           @"Database\LeftHandDownToTop.gbd"
+                                         //, @"Database\LeftHandHandsUp.gbd"
+                                          ,@"Database\LeftHandLeftToRight.gbd"
+                                         , @"Database\LeftHandRightToLeft.gbd"
+                                          //Right Hand
+                                          ,@"Database\RightHandBottomToUp.gbd"
+                                         //, @"Database\RightHandHandsUp.gbd"
+                                         , @"Database\RightHandLeftToRight.gbd"
+                                         , @"Database\RightHandRightToLeft.gbd"
                                          };
 
         //stores an array of the names of the gesture found inside the gbd file
         private string[] databaseGestureNameArray = { //Swipe Up
-                                                     "HandsUp_Right",
-                                                    "HandsUp_Left",
-                                                    "SwipeUp_Right",
-                                                    //,"SwipeDown_Left",
-                                                    "SwipeLeft_Right",
-                                                    //"SwipeRight_Left",
-                                                    "SwipeUp_Left",
-                                                    //,"SwipeDown_Right"
+                                                      "SwipeUp_Left"
+                                                     ,"SwipeUp_Right"
+                                                      //Swipe Right
+                                                     ,"SwipeRight_Left"
+                                                    , "SwipeRight_Right"
+                                                    //  //Swipe Left
+                                                    , "SwipeLeft_Left"
+                                                    , "SwipeLeft_Right"
+                                                      //Hands Up
+                                                   // , "HandsUp_Left"
+                                                    //, "HandsUp_Right"
                                                     };
 
 

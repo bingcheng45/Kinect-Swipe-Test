@@ -165,7 +165,7 @@ namespace SwipeUpTest
         public void setLabel()
         {
             number++;
-            lbtext.Content = "swipe up count: " + number;
+            lbtext.Content = "swipe up, right count: " + number;
             
         }
         public void setLabel2()
@@ -183,7 +183,7 @@ namespace SwipeUpTest
         public void setLabel4()
         {
             number4++;
-            lbtext4.Content = "Swipe down right count: " + number4;
+            lbtext4.Content = "Swipe Left, Left count: " + number4;
 
         }
         public void setLabel5()
@@ -202,7 +202,7 @@ namespace SwipeUpTest
         public void setLabel7()
         {
             number7++;
-            lbtext7.Content = "Swipe Down, left count: " + number7;
+            lbtext7.Content = "Swipe Right, Right count: " + number7;
 
         }
         public void setLabel8()

@@ -248,15 +248,11 @@ namespace SwipeUpTest
                                 break;
 
                             case "SwipeDown_Right":
-                                mainwin.setLabel4();
-                                int milliseconds4 = 500;
-                                Thread.Sleep(milliseconds4);
+                                
                                 break;
 
                             case "SwipeDown_Left":
-                                mainwin.setLabel7();
-                                int milliseconds7 = 500;
-                                Thread.Sleep(milliseconds7);
+                                
                                 break;
 
                             case "SwipeLeft_Right":
@@ -266,6 +262,9 @@ namespace SwipeUpTest
                                 break;
 
                             case "SwipeLeft_Left":
+                                mainwin.setLabel4();
+                                int milliseconds4 = 500;
+                                Thread.Sleep(milliseconds4);
                                 break;
                             case "HandsUp_Right":
                                 this.Confidence = detectionConfidence;
@@ -283,6 +282,11 @@ namespace SwipeUpTest
                                 mainwin.setLabel6();
                                 int milliseconds6 = 500;
                                 Thread.Sleep(milliseconds6);
+                                break;
+                            case "SwipeRight_Right":
+                                mainwin.setLabel7();
+                                int milliseconds7 = 500;
+                                Thread.Sleep(milliseconds7);
                                 break;
 
 
